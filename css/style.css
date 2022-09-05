@@ -7,11 +7,9 @@ background-size: contain;
 
 h3{
 color: aliceblue;
-
 }
 
-
-.evidenziato{
-  background-color: yellow;
-  background-size: 2px;
+thead{
+  background-color: rgba(32,169,229,255);
+  background-size: 40px;
 }
