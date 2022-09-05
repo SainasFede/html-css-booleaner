@@ -5,11 +5,38 @@ background-color: rgba(78,160,255,255);
 background-size: contain;
 }
 
+header img {
+  width: 250px;
+  margin-top: 25px;
+}
+
+
 h3{
 color: aliceblue;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 thead{
   background-color: rgba(32,169,229,255);
-  background-size: 40px;
+  color: aliceblue; 
+}
+.img1{
+  background-image: url(../img/monitor.jpg);
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  margin-bottom: 1px;
+}
+.img2{
+  background-image: url(../img/graph.jpg);
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: aliceblue;
 }
