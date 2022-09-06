@@ -1,3 +1,6 @@
+body{
+  
+}
 header{
 background-image: url('../img/pattern.png');
 height: 100px;
@@ -17,12 +20,18 @@ color: aliceblue;
 
 table {
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 thead{
   background-color: rgba(32,169,229,255);
-  color: aliceblue; 
+  color: aliceblue;
+  text-align: left; 
 }
+tbody tr:nth-child(odd){
+background-color: rgba(177,229,242,255);
+}
+
 .img1{
   background-image: url(../img/monitor.jpg);
   width: 250px;
@@ -30,8 +39,10 @@ thead{
   background-size: contain;
   background-repeat: no-repeat;
   color: aliceblue;
-  margin-bottom: 1px;
+  text-align: center;
+
 }
+
 .img2{
   background-image: url(../img/graph.jpg);
   width: 250px;
@@ -39,4 +50,5 @@ thead{
   background-size: contain;
   background-repeat: no-repeat;
   color: aliceblue;
+  text-align: center;
 }
